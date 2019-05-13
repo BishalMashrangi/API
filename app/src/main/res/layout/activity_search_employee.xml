@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchEmployee">
+
+    <EditText
+        android:id="@+id/etEmpID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter employee No"/>
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_margin="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvData"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+
+
+</LinearLayout>
